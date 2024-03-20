@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles\styles_01.css">
+    <title>Translate</title>
+
+    <script language="javascript" type="text/javascript">
+        elegido = "es";
+        function cargaLista(){
+          elegido = document.formita.cmbLengua.value;
+          var salida = "";
+          if(elegido =='es'){
+            salida = '<option value="es" selected="selected">Spanish</option><option value="en">Inglés</option>';
+            document.getElementById("nombre").innerText = "Nombre";
+            document.getElementById("id").innerText = "Cédula";
+            document.getElementById("pregunta").innerText = "¿Porque elegí la carrera de Tecnologías de Información?";
+            document.getElementById("list1").innerText = "Me gusta el alcance en la tecnología por ende, trabajar con ella es un reto";
+            document.getElementById("list2").innerText = "La capacidad de poder crear programas, paginas web";
+            document.getElementById("list3").innerText = "Poder adaptarme a situaciones para resolver problemas";
+            
+          }else{
+            salida = '<option value="es">Spanish</option><option value="en" selected="selected">English</option>';
+            document.getElementById("nombre").innerText = "Name";
+            document.getElementById("id").innerText = "Identification";
+            document.getElementById("pregunta").innerText = "Why I selected Information Technologies Career?";
+            document.getElementById("list1").innerText = "I like the scope in technology; therefore, working with it is a challenge.";
+            document.getElementById("list2").innerText = "The ability to create programs, web pages";
+            document.getElementById("list3").innerText = "Being able to adapt to situations to solve problems.";
+          }
+          document.formita.cmbLengua.innerHTML=salida;
+        }
+    </script>
+
+</head>
+<body>
+    <form name="formita">
+        <table>
+            <tr>
+                <td rowspan="3"><img src="img/t challa.webp" alt="imagen" width="200px"></td>
+                <td id="id">Cédula:</td>
+                <td>6-0488-0846</td>
+            </tr>
+            <tr>
+                <td id="nombre">Nombre:</td>
+                <td>T'challa </td> 
+            </tr>
+            <tr>
+                <td id="pregunta">¿Porque elegí la carrera de Tecnologías de Información? </td>
+                <td>
+                    <ul>
+                        <li id="list1">Me gusta el alcance en la tecnología por ende, trabajar con ella es un reto</li>
+                        <li id="list2">La capacidad de poder crear programas, paginas web</li>
+                        <li id="list3">Poder adaptarme a situaciones para reolver problemas</li>
+                    </ul>
+                </td>
+            </tr>
+                <select name="cmbLengua" onchange="cargaLista()">
+                    <option value="es">Spanish</option>
+                    <option value="en">Inglés</option>
+                </select>
+        </table>
+    </form>
+        
+    
+</body>
+</html>
