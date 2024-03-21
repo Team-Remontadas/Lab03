@@ -1,0 +1,120 @@
+.boton {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content; /* Hace que el contenedor ocupe solo el ancho necesario */
+    margin-top: 30px; /* Añade un espacio arriba */
+}
+
+.contenedor {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(233, 231, 231);
+    width: 80%;
+    display: flex;
+    height: 40px;
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+.contenedor .numero {
+    width: 40px;
+    border-right: 2px solid rgb(0, 0, 0);
+    margin-left: 25px;
+    padding-top: 10px;
+}
+
+.contenedor .imagen {
+    width: 250px;
+    border-right: 2px solid rgb(0, 0, 0);
+    margin-left: 25px;
+    padding-top: 10px;
+}
+
+.contenedor .desc {
+    border-right: 2px solid rgb(0, 0, 0);
+    width: 270px;
+    margin-left: 25px;
+    padding-top: 10px;
+}
+
+.contenedor .respuesta_usuario {
+    width: 200px;
+    border-right: 2px solid rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.contenedor .respuesta_correcta {
+    width: 250px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* copy paste desde aqui */
+
+.contenedor_1 {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(233, 231, 231);
+    width: 80%;
+    display: flex;
+    height: 150px;
+    border: 2px solid black;
+    border-top: none;
+}
+
+.contenedor_1 img {
+    width: 160px;
+    height: 130px;
+    margin-left: 30px;
+}
+
+
+.contenedor_1 .numero {
+    width: 40px;
+    border-right: 2px solid rgb(0, 0, 0);
+    margin-left: 25px;
+    padding-top: 60px;
+}
+
+.contenedor_1 .imagen {
+    width: 250px;
+    border-right: 2px solid rgb(0, 0, 0);
+    margin-left: 25px;
+    padding-top: 10px;
+}
+
+.contenedor_1 .desc {
+    border-right: 2px solid rgb(0, 0, 0);
+    width: 270px;
+    margin-left: 25px;
+    padding-top: 40px;
+   
+}
+
+.contenedor_1 .respuesta_usuario {
+    width: 200px;
+    border-right: 2px solid rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.contenedor_1 .respuesta_correcta1 {
+    width: 250px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.contenedor_1  .respuesta_usuario input{
+    margin-top: 40px;
+    width: 120px;
+    text-align: center;
+}
+
+.puntaje p {
+   text-align: center;
+   font-size: 50px;
+}
+

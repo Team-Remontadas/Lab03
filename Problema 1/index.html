@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <title>Problema 1</title>
+    <script src="section/verificapalabra.js"></script>
+</head>
+<body>
+    <div class="contenedor">    
+        <div class="numero">#</div>
+        <div class="imagen">Imagen</div>
+        <div class="desc">Descripcion</div>
+        <div class="respuesta_usuario">Respuesta Usuario</div>
+        <div class="respuesta_correcta">Respuesta Correcta</div>
+    </div>
+
+    <div class="contenedor_1">    
+        <div class="numero">1</div>
+        <div class="imagen">
+            <img src="estilos/imgs/kitchen.jpg" alt="ish">
+        </div>
+        <div class="desc">Lugar de tu hogar en el que se preparan alimentos</div>
+        <div class="respuesta_usuario">
+            <input type="text" placeholder="Ingresa tu respuesta" id="palabra1">
+        </div>
+        <div class="respuesta_correcta1" id="resultado1"></div>
+    </div>
+
+    <div class="contenedor_1">    
+        <div class="numero">2</div>
+        <div class="imagen">
+            <img src="estilos/imgs/bedroom.jpg" alt="ish">
+        </div>
+        <div class="desc">Lugar de tu hogar en el que duermes</div>
+        <div class="respuesta_usuario">
+            <input type="text" placeholder="Ingresa tu respuesta" id="palabra2">
+        </div>
+        <div class="respuesta_correcta1" id="resultado2"></div>
+    </div>
+
+    <div class="contenedor_1">    
+        <div class="numero">3</div>
+        <div class="imagen">
+            <img src="estilos/imgs/soccer ball.png" alt="ish">
+        </div>
+        <div class="desc">Objeto utilizado para jugar al futbol</div>
+        <div class="respuesta_usuario">
+            <input type="text" placeholder="Ingresa tu respuesta" id="palabra3">
+        </div>
+        <div class="respuesta_correcta3" id="resultado3"></div>
+    </div>
+
+    <div class="contenedor_1">    
+        <div class="numero">4</div>
+        <div class="imagen">
+            <img src="estilos/imgs/tv.jpg" alt="ish">
+        </div>
+        <div class="desc">Utilizado para ver tus programas favoritos!</div>
+        <div class="respuesta_usuario">
+            <input type="text" placeholder="Ingresa tu respuesta" id="palabra4">
+        </div>
+        <div class="respuesta_correcta4" id="resultado4"></div>
+    </div>
+   
+
+    <div class="boton">
+        <button onclick="verificarPalabra()">Verificar</button>
+    </div>
+
+    <p id="puntaje" class="puntaje"></p>
+
+
+</body>
+</html>
