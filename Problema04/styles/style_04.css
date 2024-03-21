@@ -1,0 +1,85 @@
+
+body{
+    color: #011D42;
+    line-height: 14px;
+    padding-top:5px;
+    padding-left:25px;
+    padding-right:25px;
+}
+
+.linea_sep{
+    margin-top: 10px;
+}
+
+.form-box{
+    background-color:#aaaaaa;
+    border: 1px solid orange;
+    margin-bottom: 12px;
+    padding: 12px;
+}
+
+.pie{
+    border-top:2px rgb(66, 66, 66) solid;
+    font-size: 12px;
+    height: 50px;
+    margin-top: 60px;
+    padding-top: 10px;
+}
+
+.div_pi{
+    float: left;
+    line-height: 20px;
+    text-align: left;
+    width: 33%;
+}
+
+.div_pc{
+    border-left: 1px rgb(66, 66, 66) solid;
+    border-right: 1px rgb(66, 66, 66) solid;
+    float: left;
+    line-height: 20px;
+    font-weight: bold;
+    text-align: center;
+    width: 33%;
+}
+
+.div_pd{
+    float: left;
+    line-height: 20px;
+    text-align: right;;
+    width: 33%;
+}
+
+.tabla{
+    border: 1px black solid;
+}
+
+.tabla td{
+    border: 1px black solid;
+    width: 45px;
+}
+
+.negrito{
+    background-color: black;
+}
+
+.inputcentrado{
+    text-align: center;
+}
+
+
+
+/* agregado */
+
+.acomodar-imagen img { /* para que la imagen sea responsiva */
+    max-width: 100%; 
+    height: auto; 
+} 
+
+
+.espacio-texto{ /* no sirvio :c */
+    margin-bottom: 10px;
+}
+
+
+
